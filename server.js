@@ -19,4 +19,7 @@ var corsOptions = {
 app.get('/typeahead', cors(corsOptions), require('./api/typeahead'));
 app.get('/resolver', cors(corsOptions), require('./api/resolver'));
 
+app.get('/typeahead-quote', cors(corsOptions), require('./api/typeahead-quote'));
+app.get('/resolver-quote', cors(corsOptions), require('./api/resolver-quote'));
+
 app.listen(process.env.PORT || 9145);

@@ -1,28 +1,25 @@
 {
-  "name": "giphy-mixmax-app",
+  "name": "jamal-mixmax-app",
   "version": "0.0.1",
-  "description": "Giphy App for Mixmax",
+  "description": "jamal App for Mixmax",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mixmaxhq/giphy-mixmax-app.git"
+    "url": "https://github.com/jamal86/jamal-mixmax-code.git"
   },
-  "author": "Chanpory Rith <chanpory@mixmax.com> (https://mixmax.com/)",
+  "author": "Jamal Mohammed <jamal.rvce@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mixmaxhq/giphy-mixmax-app/issues"
-  },
-  "homepage": "https://github.com/mixmaxhq/giphy-mixmax-app",
   "dependencies": {
     "body-parser": "^1.12.2",
     "cors": "^2.7.1",
     "express": "^4.12.3",
     "request": "^2.64.0",
     "synchronize": "^0.9.14",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.15"
   },
   "devDependencies": {
     "nodemon": "^1.7.1"
